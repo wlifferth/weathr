@@ -1,0 +1,40 @@
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="row">
+    <div class="col-md-6 offset-md-3 col-sm-10 offset-sm-1 col-xs-10 offset-xs-1">
+      <div id="info-box">
+        <h1 class="text-center">Weathr</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="number text-center" id="temperature">0&deg;</div>
+            <div class="number-label text-center">temperature</div>
+          </div>
+          <div class="col-md-6">
+            <div class="number text-center" id="humidity">0</div>
+            <div class="number-label text-center">humidity</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <button id="refresh">Refresh</button>
+          </div>
+          <div class="col-md-4">
+            <button id="units">Fahrenheit</button>
+          </div>
+          <div class="col-md-4">
+            <button id="about">About</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

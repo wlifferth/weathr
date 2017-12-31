@@ -1,0 +1,36 @@
+h1 {
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 60px;
+}
+
+.number {
+  font-family: "Lato";
+  font-size: 8vw;
+  font-weight: 900;
+}
+
+.number-label {
+  font-size: 2vw;
+  font-style: italic;
+}
+
+#info-box {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding: 50px;
+  margin-top: 40px;
+}
+
+body {
+  background-color: #D86C70;
+}
+
+button {
+  margin: 5px;
+  width: 100%;
+  background-color: #eaeaea;
+  font-size: 14px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 0px 0px rgba(0,0,0,0.75);
+}
